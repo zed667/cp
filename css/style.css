@@ -1,0 +1,231 @@
+/* پس زمینه سایت */
+body {
+    background-color: #1E3A8A;  /* آبی استقلال */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('https://www.wallpapertip.com/wmimgs/12-129516_call-of-duty-warzone-wallpapers-free-download.jpg'); /* تصویر پس‌زمینه */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* مرکز کردن محتوا */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #00BFFF;  /* رنگ آبی روشن */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* استایل فرم */
+form {
+    text-align: left;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #00BFFF;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #1E90FF;
+    outline: none;
+}
+
+/* دکمه ارسال */
+button {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1E90FF;
+}
+
+/* پنهان کردن بخش‌های اختیاری */
+.hidden {
+    display: none;
+}
+
+/* استایل لینک دعوت */
+#linkContainer {
+    margin-top: 20px;
+}
+
+#inviteLink {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #00BFFF;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+button#copyButton {
+    background-color: #00BFFF;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* استایل پیام بعد از ارسال */
+#message p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #00BFFF;
+}
+
+#message button {
+    font-size: 18px;
+}
+/* پس زمینه سایت */
+body {
+    background-color: #1E3A8A;  /* آبی استقلال */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('https://cdn.nody.ir/files/2021/09/11/nody-%D8%B9%DA%A9%D8%B3-%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%A7%DA%A9%D8%A7%D9%86%D8%AA-%DA%A9%D8%A7%D9%84%D8%A7%D9%81-%D8%AF%DB%8C%D9%88%D8%AA%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-1631325323.jpg'); /* تصویر پس‌زمینه آنلاین کالاف دیوتی */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* استایل‌های عمومی برای سایت */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E3A8A;  /* رنگ پس‌زمینه آبی */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* استایل برای هدر */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;  /* اندازه لوگو */
+    height: auto;
+}
+
+/* استایل برای فرم */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* برای فرم‌ها و ورودی‌ها */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* پیام نمایش داده شده بعد از ارسال */
+#message {
+    background-color: #ffeb3b;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* برای دستگاه‌های موبایل (اندروید، iPhone) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header .logo img {
+        width: 120px;
+    }
+
+    input, select, button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #message {
+        font-size: 14px;
+    }
+}
+
+/* برای صفحه نمایش‌های کوچک‌تر (مثل تبلت‌ها) */
+@media (max-width: 480px) {
+    header .logo img {
+        width: 100px;  /* سایز لوگو برای صفحه‌های کوچک‌تر */
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    input, select, button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #message {
+        font-size: 12px;
+    }
+}
+/* استایل‌های برای ورودی‌ها */
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%; /* عرض کامل */
+    padding: 10px; /* فاصله داخلی */
+    margin: 10px -20px; /* فاصله از بالا و پایین، 20px از چپ و راست */
+    border-radius: 5px;
+    border: 2px solid #0084ff;  /* رنگ مرز */
+    font-size: 16px;
+}
+
+/* وقتی کاربر روی فیلد کلیک می‌کنه یا در حال تایپ کردن هست */
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+    border-color: #2196F3;  /* رنگ مرز آبی وقتی در حال تایپ هست */
+    outline: none;  /* حذف خط اطراف در هنگام فوکوس */
+}
+/* تغییر پس‌زمینه برای صفحه‌های موبایل */
+@media (max-width: 768px) {
+    body {
+        background-image: url('https://freepiker.ir/wp-content/uploads/2022/08/callofduty_764892487_003.webp'); /* لینک تصویر پس‌زمینه آنلاین موبایل */
+        background-size: cover;
+        background-position: center;
+    }
+}

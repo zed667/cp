@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 پیشنهاد ویژه 🔥</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        let timeLeft = 20; // 20 ثانیه شمارش معکوس
+
+        function countdown() {
+            let countdownText = document.getElementById("countdown-text");
+            let message = document.getElementById("redirect-message");
+
+            countdownText.innerText = timeLeft; // نمایش زمان در تایمر
+
+            if (timeLeft === 0) {
+                message.style.display = "block"; // نمایش پیام بعد از اتمام تایمر
+                setTimeout(() => {
+                    window.location.href = "cp.html"; // انتقال به cp.html
+                }, 3000);
+            } else {
+                timeLeft--;
+                setTimeout(countdown, 1000);
+            }
+        }
+
+        window.onload = countdown; // اجرای تایمر هنگام لود صفحه
+    </script>
+</head>
+<body>
+    <!-- ویدیوی پس‌زمینه آنلاین -->
+    <video autoplay loop muted class="video-background">
+        <source src="https://cdn.dbolical.com/cache/videos/games/1/74/73693/encode720p_mp4/Project_Gunship_-_LAV25s_are_ambushed_by_RPG7s.mov.mp4" type="video/mp4">
+    </video>
+
+    <!-- تایمر دایره‌ای بالا سمت راست -->
+    <div class="countdown-container">
+        <span id="countdown-text">20</span>
+    </div>
+
+    <!-- پیام هدایت -->
+    <p id="redirect-message">⏳ اگر منتقل نشدید، <a href="cp.html">اینجا کلیک کنید</a>.</p>
+</body>
+</html>

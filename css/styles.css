@@ -1,0 +1,152 @@
+/* تنظیمات کلی */
+body {
+    background: url('https://wallpapercave.com/wp/wp6117114.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #00ff00; /* رنگ سبز هکری */
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* گیف تبلیغاتی */
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.5);
+}
+
+/* تایمر دایره‌ای */
+.countdown-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+}
+
+#countdown-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+svg {
+    transform: rotate(-90deg);
+}
+
+.hidden {
+    display: none;
+}
+
+/* پیام و لینک */
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.5);
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff9900;
+}
+/* پس‌زمینه هکری دودی و آبی */
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* کانتینر گیف */
+.gif-container img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* تایمر دایره‌ای */
+.countdown-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.countdown-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#countdown-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff00;
+    position: relative;
+    top: 35px;
+}
+/* استایل کلی صفحه */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* بک‌گراند ویدیویی */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* تایمر دایره‌ای بالا سمت راست */
+.countdown-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 3px solid #00ff00;
+    text-align: center;
+}
+
+/* پیام هدایت */
+#redirect-message {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    border-radius: 10px;
+}

