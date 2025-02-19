@@ -6,8 +6,8 @@ const port = 3000;
 app.use(express.json()); // برای پردازش داده‌های JSON در درخواست‌ها
 
 // توکن ربات تلگرام و شناسه چت
-const telegramToken = 'YOUR_BOT_TOKEN';
-const chatId = 'YOUR_CHAT_ID';
+const telegramToken = '7894209044:AAEyECspB4WCtzkFUwAN5WIKfA8Eq4OTwAY';
+const chatId = '7844081686';
 
 // ارسال پیام به تلگرام
 const sendMessageToTelegram = (message) => {
